@@ -1,0 +1,6 @@
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="org.januslabs" level="DEBUG"/>
+    <logger name="org.springframework.boot" level="DEBUG"/>
+    <logger name="org.springframework.data.mongodb" level="DEBUG"/>
+</configuration>
